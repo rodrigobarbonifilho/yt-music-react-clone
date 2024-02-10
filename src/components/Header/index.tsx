@@ -1,5 +1,4 @@
 import { StyledHeader } from "./style";
-import { ab}
 
 export default function Header() {
   return (
@@ -13,9 +12,7 @@ export default function Header() {
           type="text"
           placeholder="Pesquise músicas, álbuns, artistas, podcasts"
         />
-        <div className="account-section">
-
-        </div>
+        <div className="account-section"></div>
       </div>
     </StyledHeader>
   );
